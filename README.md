@@ -2,6 +2,8 @@
 
 A modular, server-authoritative pet system featuring constraint-based physics following, lifecycle need loops, and event-driven client UI.
 
+![Pet Demo](./pet-demo.gif)
+
 ## Architecture
 
 - **`src/server/PetManager.luau`**: Handles pet spawning, assigns network ownership to the client for local physics smoothing, and drives loose-follow logic via `AlignPosition` and `AlignOrientation`.
